@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>lint-app1-releases</id>
       <name>lint-app1-releases</name>
-      <url>http://ip-172-31-21-253.us-east-2.compute.internal:8081/repository/lint-app1-releases/</url>
+      <url>ip-172-31-20-90.us-east-2.compute.internal:8081/repository/lint-app1-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>lint-app1-snapshots</id>
       <name>lint-app1-snapshots</name>
-      <url>http://ip-172-31-21-253.us-east-2.compute.internal:8081/repository/lint-app1-snapshots/</url>
+      <url>ip-172-31-20-90.us-east-2.compute.internal:8081/repository/lint-app1-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
