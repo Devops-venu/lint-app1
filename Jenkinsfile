@@ -4,7 +4,7 @@ node {
    stage('Preparation') { 
       git 'https://github.com/Devops-venu/lint-app1.git'
       
-      mvnHome = tool 'maven3.3.9'
+      mvnHome = tool 'maven-3.3.9'
    }
    stage('Build') {
       // Run the maven build
