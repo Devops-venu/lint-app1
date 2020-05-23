@@ -1,8 +1,7 @@
 
 node {
    def mvnHome
-  
-   stage('Preparation') { 
+  stage('Preparation') { 
       git 'https://github.com/Devops-venu/lint-app1.git'
       
       mvnHome = tool 'maven-3.3.9'
