@@ -1,6 +1,7 @@
 
 node {
    def mvnHome
+  
    stage('Preparation') { 
       git 'https://github.com/Devops-venu/lint-app1.git'
       
